@@ -5,9 +5,10 @@ language: cpp
 
 script:
   - sh ./build.sh
+  - git --version
+  - git branch
   - git add -A
   - git commit -m "deploy [ci skip]"
-  - git branch
   - echo "git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ${TRAVIS_BRANCH}"
   - git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git ${TRAVIS_BRANCH}
 
