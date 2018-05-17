@@ -4,7 +4,7 @@ sudo: false
 language: cpp
 
 script:
-  - ./build.sh
+  - sh ./build.sh
 
 deploy:
   provider: pages
