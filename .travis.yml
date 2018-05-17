@@ -10,6 +10,7 @@ script:
   - git commit -m "deploy [ci skip]"
   - git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git ${TRAVIS_BRANCH}
 
+# TODO: add skip comment...
 #deploy:
 #  provider: pages
 #  target-branch: master
