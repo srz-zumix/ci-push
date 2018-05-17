@@ -8,7 +8,7 @@ script:
   - git add -A
   - git commit -m "deploy [ci skip]"
   - echo "git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ${TRAVIS_BRANCH}"
-  - git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ${TRAVIS_BRANCH}
+  - git push https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git ${TRAVIS_BRANCH}
 
 #deploy:
 #  provider: pages
