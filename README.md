@@ -1,4 +1,4 @@
 # ci-push
 ci push sample
 
-[![Build Status](https://travis-ci.org/srz-zumix/ci-push.svg?branch=master)](https://travis-ci.org/srz-zumix/ci-push)
+[![Build Status](https://travis-ci.com/srz-zumix/ci-push.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-push)
